@@ -1,0 +1,33 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    max-width: 300px;
+    padding-top: 20px;
+    margin-top: 15px;
+    margin: auto;
+    text-align: center;
+    border: 4px black;
+    border-radius: 50px ;
+    min-height: 55vh;
+    text-overflow: none;
+}
+
+img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+a {
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: lightblue;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+a:hover{
+    color: blue;
+    background-color: aliceblue;
+}
